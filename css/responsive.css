@@ -1,0 +1,178 @@
+/* Bilbao - HTML Template */
+
+@media only screen and (max-width: 1800px) {
+	.main-slider .slider-wrapper .image img {
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 1300px) {
+	.page-wrapper {
+		overflow: hidden;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.five-column {
+		max-width: 20%;
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+	.page-wrapper {
+		margin-bottom: 0px !important;
+	}
+	.header-contact-info ul li {
+		margin-right: 24px;
+	}
+	.header-info .main-logo a {
+		margin: 0px;
+	}
+	.fluid-section .left-column,
+	.fluid-section .right-column {
+		width: 100%;
+		float: none;
+	}
+	.fluid-section .right-column .content-area {
+		max-width: 100%;
+		padding-left: 15px;
+	}
+	.fluid-section .left-column .inner-column {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.main-header .header-upper.style-two .upper-right {
+		padding: 0;
+	}
+	.main-header .header-upper.style-two .upper-right:before {
+		display: none;
+	}
+	.mission-section .left-column {
+		width: 100%;
+	}
+	.mission-section .left-column .inner-column {
+		float: left;
+	}
+	.mission-section .right-column {
+		width: 100%;
+		padding-left: 15px;
+	}
+	.owl-nav-style-four .owl-nav .owl-prev {
+		left: 10px;
+	}
+	.owl-nav-style-four .owl-nav .owl-next {
+		right: 10px;
+	}
+	.call-to-action-section .left-column .inner-column {
+		padding-bottom: 0px;
+	}
+	.call-to-action-section .right-column {
+		float: left;
+	}
+	.call-to-action-section .right-column .inner-column {
+		padding-top: 20px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.row.row-revers-lg {
+	  -webkit-box-orient: horizontal !important;
+	  -webkit-box-direction: reverse !important;
+	  -ms-flex-direction: row-reverse !important;
+	  flex-direction: row-reverse !important;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.main-menu .navigation>li.dropdown:before {
+		display: none;
+	}
+	.main-header .header-upper.style-two .upper-right{
+		display: block;
+	}
+	.about-section .content-column {
+		width: 100%;
+		float: none;
+	}
+	.about-section .about-block-area {
+		float: none;
+	}
+	.about-section .image-column {
+		background-image: none !important;
+	    position: relative;
+	    width: 100%;
+	}
+	.about-section .image-column .image-box {
+		display: block;
+	}
+	.main-footer .posts-widget {
+		padding-right: 0px;
+		margin-left: 0px;
+	}
+	.counter-block .inner-box {
+		margin-bottom: 60px;
+	}
+	.our-skill {
+		margin-bottom: 50px;
+	}
+	.main-slider .active h5 {
+		color: #fff;
+	}
+	.welcome-block-two .inner-box {
+		margin-bottom: 30px;
+	}
+	.about-block-area {
+		margin-bottom: 50px;
+	}
+	
+}
+
+@media only screen and (max-width: 767px) {
+	.contact-info-section-two .image-column,
+	.contact-info-section-two .content-column {
+		position: relative;
+		width: 100%;
+	}
+	.contact-info-section-two .image-column .image-box {
+		display: block;
+	}
+	.header-top .topbar-info {
+		margin-top: 25px;
+	}
+	.header-top .top-right:before {
+		left: -150px;
+		bottom: -13px;
+		top: inherit;
+	}
+}
+
+@media only screen and (max-width: 599px) {
+	.main-slider h1 {
+		font-size: 48px;
+		line-height: 50px;
+	}
+	.main-slider .content:before {
+		display: none;
+	}
+	.page-title .outer-box {
+	    display: block;
+	}
+}
+
+
+@media only screen and (max-width: 499px) {
+	.author-box .inner-box {
+	    padding-left: 30px;
+	}
+
+	.author-box .image {
+	    position: relative;
+	    left: 0;
+	    top: -15px;
+	}
+
+	.sidebar-page-container .comments-area .comment-box.comment-reply-box {
+	    margin-left: 0;
+	}
+}
+
